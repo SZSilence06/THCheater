@@ -2,7 +2,10 @@
 
 Memory editor for th16.
 
-![THCheater](/ScreenShot/screenshot.png)
+<p align="center">
+    <img style="" src="/ScreenShot/screenshot.png" alt="THCheater" />
+</p>
+
 
 ## Build Steps
 
