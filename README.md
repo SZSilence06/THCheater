@@ -2,7 +2,7 @@
 
 Memory editor for th16.
 
-![THCheater](https://github.com/SZSilence06/THCheater/tree/master/ScreenShot/screenshot.png)
+![THCheater](/ScreenShot/screenshot.png)
 
 ## Build Steps
 
