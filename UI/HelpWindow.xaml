@@ -1,0 +1,27 @@
+﻿<Window x:Class="THCheater.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:THCheater"
+        mc:Ignorable="d"
+        Title="使用说明" Height="265" Width="359"
+        Background="LightGray"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="68*" />
+            <ColumnDefinition Width="285*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2">
+            点击“读取游戏数据”来寻找游戏进程并加载数据，设置好功能选项和要修改的数值后，就可以点击“修改！”来修改了。（当程序打开时会自动尝试寻找游戏进程，找到了就不必再点“读取游戏数据”了）<LineBreak />
+            <LineBreak />
+            残机和雷的范围是0-10，power范围是0-400，分数范围是0-9999999999，注意个位数为续关次数。<LineBreak />
+            <LineBreak />
+            残机和雷在修改后不会马上显示，需要miss一次或扔一次雷后才会显示出来。<LineBreak />
+            <LineBreak />
+            遇到bug请联系SZ_Silence06@foxmail.com
+        </TextBlock>
+    </Grid>
+</Window>
